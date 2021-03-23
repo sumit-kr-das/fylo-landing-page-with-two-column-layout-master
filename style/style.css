@@ -23,6 +23,7 @@ h1{
 /* Navigation Bar */
 header.main{
     padding: 0 auto;
+    margin: 0 auto;
     padding-bottom: 80px;
     max-width: 1440px;
     height: auto;
@@ -68,6 +69,7 @@ header.main nav.nav-bar ul li a{
 /* Header body */
 header.main .container{
     padding: 0 60px;
+    margin: 0 auto;
 }
 header.main .container .content2 img{
     width: 80%;
@@ -179,7 +181,8 @@ header.main .container .content1 input{
 }
 /* Stay productive, wherever you are style */
 section.stay{
-    padding: 0 auto;
+    padding-bottom: 40px;
+    margin: 0 auto;
     max-width: 1440px;
     height: auto;
 }
@@ -291,12 +294,69 @@ section.stay .container .content1 .cards .contribution p{
 /* Get early access today section */
 section.form .container{
     max-width: 1440px;
+    margin: 0 auto;
     height: auto;
     background: var(--primary-DesaturatedBlue);
     color: white;
-    padding: 40px;
+    padding:50px 30px;
 }
-section.form .container .content input{
-    padding: 12px 85px 12px 10px;
+section.form .container .content2 input{
+    padding: 15px 170px 12px 10px;
     outline: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+section.form .container .content1{
+    padding: 0 80px;
+}
+section.form .container .content2{
+    padding-left: 64px;
+}
+section.form .container .content1 h2{
+    padding-top: 10px;
+}
+section.form .container .content1 p{
+    padding-top: 10px;
+    font-size: 16px;
+    color: var(--natural-LightGray);
+}
+.btn-edit{
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+/* footer section */
+footer.credit{
+    margin: 0 auto;
+    max-width: 1440px;
+    background: var(--primary-VeryDarkBlue);
+    color: white;
+}
+footer.credit .container{
+    padding: 0 40px;
+}
+footer.credit .img{
+    color: wheat;
+}
+footer.credit .container .content p{
+    padding-left: 10px;
+}
+footer.credit .container .content img{
+    width: 20px;
+    height: 16px;
+}
+footer.credit .container .content .div2{
+    padding-top: 10px;
+}
+footer.credit .container .content ul{
+    list-style: none;
+}
+footer.credit .container .content ul li{
+    padding-bottom: 10px;
+}
+footer.credit .container .content .fa{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
 }
