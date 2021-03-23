@@ -331,12 +331,15 @@ footer.credit{
     max-width: 1440px;
     background: var(--primary-VeryDarkBlue);
     color: white;
+    
 }
-footer.credit .container{
-    padding: 0 40px;
+footer.credit .contents{
+    padding: 55px 40px 36px 40px;
 }
-footer.credit .img{
-    color: wheat;
+footer.credit img{
+    width: 90px;
+    height: 28px;
+    margin-bottom: 10px;
 }
 footer.credit .container .content p{
     padding-left: 10px;
