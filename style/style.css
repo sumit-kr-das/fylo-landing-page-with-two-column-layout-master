@@ -397,9 +397,12 @@ footer.credit .container .content .fa{
     footer.credit .container{
         flex-direction: column;
     }
+    footer.credit .container .content{
+        padding-bottom: 20px;
+    }
     footer.credit .container .last-content{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 10px 0;
     }
 }
