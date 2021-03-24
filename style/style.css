@@ -343,9 +343,6 @@ section.form .container .content1 p{
 }
 @media(max-width:459px){
     section.form .container{
-        flex-direction: column;
-    }
-    section.form .container{
         padding:50px 0px;
     }
     section.form .container .content2 input{
