@@ -265,6 +265,11 @@ section.stay .container .content1 .cards .contribution p{
     padding-top: 0;
     font-size: 9px;
 }
+@media(max-width:880px){
+    section.stay .container{
+        flex-direction: column-reverse;
+    }
+}
 @media(max-width:459px){
     section.stay .container{
         flex-direction: column-reverse;
@@ -327,6 +332,14 @@ section.form .container .content1 p{
     margin-left: 0px;
     margin-top: 10px;
     border-radius: 3px;
+}
+@media(max-width:880px){
+    section.form .container{
+        flex-direction: column;
+    }
+    section.form .container .content2 {
+        padding: 20px 80px;
+    }
 }
 @media(max-width:459px){
     section.form .container{
@@ -394,7 +407,10 @@ footer.credit .container .content .fa{
     padding: 10px;
     margin-right: 10px;
 }
-@media(max-width:459px){
+@media(max-width:880px){
+    footer.credit .container{
+        flex-direction: column;
+    }
     footer.credit .container{
         flex-direction: column;
     }
