@@ -223,11 +223,20 @@ section.stay .container .content2 img{
 }
 section.stay .container .content1 span{
     display: inline-flex;
-    text-decoration: underline;
     width: 100%;
     color: var(--accent-ModeratCyan);
     text-align: center;
+    position: relative;
 }
+/* section.stay .container .content1 span::before{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    bottom: 30px;
+    background: var(--accent-ModeratCyan);
+
+} */
 section.stay .container .content1 span p{
     color: var(--accent-ModeratCyan);
 }
@@ -309,16 +318,27 @@ section.form .container{
     padding:50px 30px;
 }
 section.form .container .content2 input{
-    padding: 15px 170px 12px 10px;
-    outline: none;
+    width: 100%;
+    padding: 10px 40px 10px 10px;
     border: 1px solid transparent;
     border-radius: 3px;
+    outline: none;
+}
+.btn-2{
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: var(--accent-BrightBlue);
+    color: white;
+    margin-top: 10px;
+    outline: none;
 }
 section.form .container .content1{
     padding: 0 80px;
 }
 section.form .container .content2{
-    padding-left: 64px;
+    padding: 0px 100px 0px 100px;
 }
 section.form .container .content1 h2{
     padding-top: 10px;
@@ -327,11 +347,6 @@ section.form .container .content1 p{
     padding-top: 10px;
     font-size: 16px;
     color: var(--natural-LightGray);
-}
-.btn-edit{
-    margin-left: 0px;
-    margin-top: 10px;
-    border-radius: 3px;
 }
 @media(max-width:880px){
     section.form .container{
@@ -345,13 +360,7 @@ section.form .container .content1 p{
     section.form .container{
         padding:50px 0px;
     }
-    section.form .container .content2 input{
-        padding: 15px 80px 12px 10px;
-        outline: none;
-        border: 1px solid transparent;
-        border-radius: 3px;
-    }
-    section.form .container .content2 {
+    section.form .container .content2{
         padding: 20px 60px;
     }
     section.form .container .content1 h2{
