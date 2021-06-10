@@ -1,5 +1,7 @@
 # Frontend Mentor - Fylo landing page with two column layout
 
+Test your real devices: https://clever-thompson-604c03.netlify.app/
+
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
